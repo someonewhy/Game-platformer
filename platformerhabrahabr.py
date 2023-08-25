@@ -77,7 +77,7 @@ def loadLevel():
                     animatedEntities.add(tp)
                 if commands[0] == "monster":  # если первая команда monster, то создаем монстра
                     mn = Monster(int(commands[1]), int(commands[2]), int(commands[3]), int(commands[4]),
-                                 int(commands[5]), int(commands[6]))
+                                 int(commands[5]),int(commands[6]))
                     entities.add(mn)
                     platforms.append(mn)
                     monsters.add(mn)
@@ -177,7 +177,7 @@ def main():
         if hero.respawning:
             screen.blit(hero.death_image, (500, 500))  # Отобразите изображение смерти
         animatedEntities.update()  # показываем анимацию
-        monsters.update(platforms, hero)  # передвигаем всех монстров
+        monsters.update(platforms)  # передвигаем всех монстров
         camera.update(hero)  # центризируем камеру относительно персонажа
         hero.update(left, right, up, running, platforms)  # передвижения
         for e in entities:
