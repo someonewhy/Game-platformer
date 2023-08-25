@@ -1,0 +1,45 @@
+[
+ssssssssssssssssssssssssssssssssss|
+s               *                s|
+s             *           P      s|
+s---                     --**   -s|
+s            --                  s|
+s                   ----         s|
+s                          ---   s|
+s                                s|
+s-                   ----        s|
+s               ---              s|
+s-                     --        s|
+s                                s|
+s                    --      --- s|
+s            ---                 s|
+s                                s|
+s      ---                       s|
+s                                s|
+s   --------        ----         s|
+s                                s|
+s -                       -      s|
+s      **                    --  s|
+s    - *                         s|
+s     **                         s|
+s--------------              --  s|
+s                         --     s|
+s                      --        s|
+ssssssssssssssssssssssssssssssssss|
+]
+
+player 500 640
+
+monster 140 200 2 1 500 640
+monster 140 200 2 1 500 640
+
+portal 128 512 900 35
+
+portal 270 512 700 64
+
+portal 640 100 640 600
+ 
+
+
+
+/
